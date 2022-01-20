@@ -50,7 +50,7 @@ _Aclaración_: Para todos los endpoints se debe devolver un json con su código 
 
 
 
-## Preparando el proyecto
+## Configurando el proyecto para un entorno de desarrollo
 
 ### Instalar las dependencias del proyecto
 
@@ -121,7 +121,12 @@ CURRENT_TIMESTAMP, `genero_id` INTEGER NOT NULL, `album_id` INTEGER NOT NULL, `a
 - **Generos**: `id` INTEGER auto_increment , `nombre` VARCHAR(255), PRIMARY KEY (`id`)
 
 
-### Postman
+---
+
+
+## Probando en producción los endpoints
+
+### App para realizar las pruebas CRUD con Postman
 
 Descargar e instalar la aplicación **Postman** desde el siguiente link:
 - [Link de descarga para Windows 64-bit](https://dl.pstmn.io/download/latest/win64/).
@@ -273,3 +278,15 @@ _Impotante: El envío de solicitudes con Postman se debe hacer por medio de `raw
     
 
 - `../api/generos` **[GET]**: [https://dh-crud.herokuapp.com/api/generos](https://dh-crud.herokuapp.com/api/generos)
+
+
+---
+
+## Probando en entorno de desarrollo local los endpoints
+
+
+La prueba en producción se puede realizar en el entorno de desarrollo, una vez finalizada la configuración de la base de datos local.
+
+Se debe reemplazar las siguientes direcciones, al realizar las pruebas anteriormente mencionadas:
+
+`https://dh-crud.herokuapp.com/` por `http://localhost:8080`
