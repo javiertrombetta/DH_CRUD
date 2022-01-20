@@ -1,0 +1,27 @@
+{
+  "name": "dh_crud",
+  "version": "1.0.0",
+  "description": "Proyecto CRUD de una aplicación API REST, conectada a una base de datos MYSQL.",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiertrombetta/DH_CRUD.git"
+  },
+  "author": "Javier Trombetta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiertrombetta/DH_CRUD/issues"
+  },
+  "homepage": "https://github.com/javiertrombetta/DH_CRUD#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0"
+  }
+}
