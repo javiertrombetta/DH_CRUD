@@ -2,10 +2,10 @@
   "name": "dh_crud",
   "version": "1.0.0",
   "description": "Proyecto CRUD de una aplicación API REST, conectada a una base de datos MYSQL.",
-  "main": "app/app.js",
+  "main": "./app/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app/app.js"
+    "dev": "nodemon ./app/app.js"
   },
   "repository": {
     "type": "git",

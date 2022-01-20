@@ -1,1 +1,1 @@
-web: node app/app.js remote
+web: node ./app/app.js remote
