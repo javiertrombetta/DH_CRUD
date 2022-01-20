@@ -59,6 +59,7 @@ Se deben instalar las siguientes dependencias:
 - **express**
 - **sequelize**
 - **mysql2**
+- **dotenv**
 
 
 ```
